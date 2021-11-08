@@ -3,7 +3,7 @@
 # example: OPENAPI_SPEC=openapi.yaml ./gen.sh typescript typeScriptSdkOutDir --additionalArg1 --addititionalArg2
 
 LANG=$1
-OUT_LOC=${2:-out/$LANG}
+OUT_LOC=${2:-sdks/$LANG}
 SPEC_LOC="${OPENAPI_SPEC:-https://raw.githubusercontent.com/ergoplatform/ergo/master/src/main/resources/api/openapi.yaml}"
 
 echo "Generating $LANG"

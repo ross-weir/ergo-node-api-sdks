@@ -276,10 +276,9 @@ Class | Method | HTTP request | Description
 - **Location**: HTTP header
 
 
-## Author
+## Credits
 
-ergoplatform@protonmail.com
-
+ergo team
 
 ## Notes for Large OpenAPI documents
 If the OpenAPI document is large, imports in ergo_node.apis and ergo_node.models may fail with a
