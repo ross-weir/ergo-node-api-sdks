@@ -1,0 +1,14 @@
+# SpendingProof
+
+Spending proof for transaction input
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**proof_bytes** | **str** | Base16-encoded spending proofs | 
+**extension** | **{str: (str,)}** | Variables to be put into context | 
+**any string name** | **bool, date, datetime, dict, float, int, list, str, none_type** | any string name can be used but the value must be the correct type | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
